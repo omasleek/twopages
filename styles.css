@@ -31,6 +31,21 @@
         font-size: 18px;
         line-height: 1.5;
       }
+      .about-link,
+      .contact-link {
+        border-radius: 4px;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-transform: capitalize;
+        background: var(--primary-color);
+        box-shadow: var(--box-shadow);
+        color: white;
+      }
+      
+      .about-link:hover,
+      .contact-link:hover {
+        background-color: #befaf4; 
+      }
       
       .navigation-links {
         display: flex;
